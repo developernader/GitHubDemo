@@ -17,5 +17,11 @@ namespace GitHubDemo.Controllers
         {
             return View();
         }
+
+        public IActionResult HistoryView()
+        {
+            return View();
+        }
+
     }
 }
